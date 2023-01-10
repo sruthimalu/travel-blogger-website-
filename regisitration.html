@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./registration.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top" style="background-color: rgba(0, 0, 0, 0.2);">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarExample01"
+              aria-controls="navbarExample01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link text-white" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">BLOG</a>
+                </li>
+                <!-- <li class="nav-item ">
+                  <a class="nav-link" href="#">DESTINATIONS</a>
+                </li> -->
+
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    DESTINATION
+                  </a>
+  
+                  <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item text-white" href="#">AMERICAS</a></li>
+                    <li><a class="dropdown-item text-white" href="#">ASIA</a></li>
+                    <!-- <li><hr class="dropdown-divider"></li> -->
+                    <li><a class="dropdown-item text-white" href="#">EUROPE</a></li>
+                    <li><a class="dropdown-item text-white" href="#">MIDDLE EAST</a></li>
+                    <li><a class="dropdown-item text-white" href="#">OCEANIA</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar -->
+      
+        <!-- Background image -->
+        <div
+          class="p-5 text-center bg-image"
+          style="
+            background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+            height: 400px;
+            margin-top: 58px;
+          "
+        >
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white">
+                <h1 class="mb-3">ALONG DUSTY ROADS</h1>
+                <h4 class="mb-3">ADEVENTURES</h4>
+                <a class="btn btn-outline-light btn-sm" href="#!" role="button"
+                >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Background image -->
+      </header>
+
+<!-- feature -->
+<section class="features">
+  <h1>Featured</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col -md-4">
+<div class="feature-box">
+  <div class="feature-img">
+    <img src="./travel2.png" >
+    <!-- <div class="price">Egypt</div>
+  </div>
+   <div class="rating">
+    <!-- <i class="fa fa-star"></i> -->
+  </div>  
+</div>
+<div class="feature-details">
+  <h4>Egypt</h4>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus eveniet non delectus eos? Consectetur repellendus cupiditate, reprehenderit delectus, placeat nostrum voluptates adipisci dolor ut ratione totam consequatur, voluptatem cum dignissimos.</p>
+  
+</div>
+      </div>
+      <div class="col -md-4">
+
+        <div class="feature-box">
+          <div class="feature-img">
+            <img src="./travel6.jpg"  >
+            <!-- <div class="price">Egypt</div>
+          </div>
+           <div class="rating">
+            <!-- <i class="fa fa-star"></i> -->
+          </div>  
+        </div>
+        <div class="feature-details">
+          <h4>Egypt</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus eveniet non delectus eos? Consectetur repellendus cupiditate, reprehenderit delectus, placeat nostrum voluptates adipisci dolor ut ratione totam consequatur, voluptatem cum dignissimos.</p>
+          
+        </div>
+      </div>
+      <div class="col -md-4">
+
+        <div class="feature-box">
+          <div class="feature-img">
+            <img src="./travel2.png">
+            <!-- <div class="price">Egypt</div>
+          </div>
+           <div class="rating">
+            <!-- <i class="fa fa-star"></i> -->
+          </div>  
+        </div>
+        <div class="feature-details">
+          <h4>Egypt</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus eveniet non delectus eos? Consectetur repellendus cupiditate, reprehenderit delectus, placeat nostrum voluptates adipisci dolor ut ratione totam consequatur, voluptatem cum dignissimos.</p>
+          
+        </div>
+      </div>
+      <div class="col -md-4">
+
+        <div class="feature-box">
+          <div class="feature-img">
+            <img src="./travel6.jpg" >
+            <!-- <div class="price">Egypt</div>
+          </div>
+           <div class="rating">
+            <!-- <i class="fa fa-star"></i> -->
+          </div>  
+        </div>
+        <div class="feature-details">
+          <h4>Egypt</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus eveniet non delectus eos? Consectetur repellendus cupiditate, reprehenderit delectus, placeat nostrum voluptates adipisci dolor ut ratione totam consequatur, voluptatem cum dignissimos.</p>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+
+</section>
+
+<section class="gallery">
+  <h1>Blog</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="gallery-box">
+        <img src="./travel4.jpg" alt="">
+        <h4>NEW YORK</h4>
+      </div>
+      </div>
+      <div class="col-md-3">
+        <div class="gallery-box">
+        <img src="./travel5.jpg" alt="">
+        <h4>NEW YORK</h4>
+      </div>
+      </div>
+      <div class="col-md-3">
+        <div class="gallery-box">
+        <img src="./travel4.jpg" alt="">
+        <h4>NEW YORK</h4>
+      </div>
+      </div>
+      <div class="col-md-3">
+        <div class="gallery-box">
+        <img src="./travel4.jpg" alt="">
+        <h4>NEW YORK</h4>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-light text-light">
+    <img class="card-img" src="./bali2.jpg" alt="Card image" width="200px" height="450px">
+    <div class="card-img-overlay">
+      
+      <h5 class="card-title mt-3 mb-4 text-center">BALI TRAVEL GUIDE</h5>
+      <p class="card-text mt-3 mb-3 text-center">Complete tips for visting Indonesia's favorite island!</p>
+      <p class="card-text"></p>
+      <center>
+      <a class="btn btn-outline-light btn-sm mt-3 mb-3 text-center" href="https://youtu.be/CBwKJfrm5-U" role="button">Known More</a>
+    </center>
+    </div>
+  </div>
+
+<!-- </section>
+<section class="banner " >
+ <div class="banner-hightlights">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h2>BALI TRAVEL GUIDE</h2>
+        <P>Complete tips for visting Indonesia's favorite island!</P>
+        <a class="btn btn-outline-light btn-sm" href="#!" role="button">Read More</a>
+      </div>
+        <div class="col-md-4"></div>
+
+      
+    </div>
+  </div>
+ </div> 
+</section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Carousel wrapper -->
+<div
+  id="carouselMultiItemExample"
+  class="carousel slide carousel-dark text-center"
+  data-mdb-ride="carousel"
+>
+  <!-- Controls -->
+  <div class="d-flex justify-content-center mb-2">
+    <button
+      class="carousel-control-prev position-relative"
+      type="button"
+      data-mdb-target="#carouselMultiItemExample"
+      data-mdb-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next position-relative"
+      type="button"
+      data-mdb-target="#carouselMultiItemExample"
+      data-mdb-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Inner -->
+  <div class="carousel-inner py-4">
+    <!-- Single item -->
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <center><h1>Destination</h1></center>
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
+                class="card-img-top"
+                alt="Waterfall"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Angel Waterfalls of Venezuela</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                <a href="https://youtu.be/VbpsM4jgunY" class="btn btn-primary">Known More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp"
+                class="card-img-top"
+                alt="Sunset Over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Nongjrong</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                <a href="https://youtu.be/no1W6JNUgC0" class="btn btn-primary">Known More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="https://www.5dariyanews.com/Uploads/2021/12/16/en-news-15591772-20211216_150945-large.jpg"
+                class="card-img-top"
+                alt="Sunset over the Sea" height="220px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Gulmarg,</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                <a href="https://youtu.be/hLk1Uxnw-iA" class="btn btn-primary">Known More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="carousel-item">
+      <div class="container"> 
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Known More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/185.webp"
+                class="card-img-top"
+                alt="Storm Clouds"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/186.webp"
+                class="card-img-top"
+                alt="Hot Air Balloons"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Single item -->
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/187.webp"
+                class="card-img-top"
+                alt="Peaks Against the Starry Sky"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/188.webp"
+                class="card-img-top"
+                alt="Bridge Over Water"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/189.webp"
+                class="card-img-top"
+                alt="Purbeck Heritage Coast"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk
+                  of the card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+</div>
+<!-- Carousel wrapper -->
+<br><br><br>
+
+<!-- Modal gallery -->
+<section class="">
+  <!-- Section: Images -->
+  <section class="">
+    <div class="row">
+    <center>  <h1>Gallery</h1></center>
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <div
+          class="bg-image hover-overlay ripple shadow-1-strong rounded"
+          data-ripple-color="light"
+        >
+          <img
+            src="./g1.png"
+            class="w-100" height="185px"/>
+          <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <div
+          class="bg-image hover-overlay ripple shadow-1-strong rounded"
+          data-ripple-color="light"
+        >
+          <img
+            src="./g2.png"
+            class="w-100" height="185px"
+          />
+          <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <div
+          class="bg-image hover-overlay ripple shadow-1-strong rounded"
+          data-ripple-color="light"
+        >
+          <img
+            src="./g3.png"
+            class="w-100" height="185px"
+          />
+          <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Images -->
+
+  <!-- Section: Modals -->
+  <section class="">
+    <!-- Modal 1 -->
+    <div
+      class="modal fade"
+      id="exampleModal1"
+      tabindex="-1"
+      aria-labelledby="exampleModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.youtube.com/embed/A3PDXmYoF5U"
+              title="YouTube video"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="text-center py-3">
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 2 -->
+    <div
+      class="modal fade"
+      id="exampleModal2"
+      tabindex="-1"
+      aria-labelledby="exampleModal2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.youtube.com/embed/wTcNtgA6gHs"
+              title="YouTube video"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="text-center py-3">
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 3 -->
+    <div
+      class="modal fade"
+      id="exampleModal3"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.youtube.com/embed/vlDzYIIOYmM"
+              title="YouTube video"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="text-center py-3">
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Modals -->
+</section>
+<!-- Modal gallery -->
+
+
+<!-- Modal gallery -->
+<section class="">
+  <!-- Section: Images -->
+  <section class="">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <div
+          class="bg-image hover-overlay ripple shadow-1-strong rounded"
+          data-ripple-color="light"
+        >
+          <img
+            src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-1.webp"
+            class="w-100"
+          />
+          <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <div
+          class="bg-image hover-overlay ripple shadow-1-strong rounded"
+          data-ripple-color="light"
+        >
+          <img
+            src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-2.webp"
+            class="w-100"
+          />
+          <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <div
+          class="bg-image hover-overlay ripple shadow-1-strong rounded"
+          data-ripple-color="light"
+        >
+          <img
+            src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-3.webp"
+            class="w-100"
+          />
+          <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Images -->
+
+  <!-- Section: Modals -->
+  <section class="">
+    <!-- Modal 1 -->
+    <div
+      class="modal fade"
+      id="exampleModal1"
+      tabindex="-1"
+      aria-labelledby="exampleModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.youtube.com/embed/A3PDXmYoF5U"
+              title="YouTube video"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="text-center py-3">
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 2 -->
+    <div
+      class="modal fade"
+      id="exampleModal2"
+      tabindex="-1"
+      aria-labelledby="exampleModal2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.youtube.com/embed/wTcNtgA6gHs"
+              title="YouTube video"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="text-center py-3">
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 3 -->
+    <div
+      class="modal fade"
+      id="exampleModal3"
+      tabindex="-1"
+      aria-labelledby="exampleModal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.youtube.com/embed/vlDzYIIOYmM"
+              title="YouTube video"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="text-center py-3">
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Modals -->
+</section>
+<!-- Modal gallery -->
+
+<br><br>
+
+<div class="container">
+  <div class="title">
+    
+  </div>
+  <div class="card">
+    <div class="row">
+      <div class="col-md-4">
+        <img class="img-fluid rounded-start" src="./aboutme.png " alt="">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 >About Me</h5>
+           <h1>THANKS FOR LOOKING!</h1>
+           <p>Thanks for looking! I'm David, and this is my travel blog. I'm an American world traveler from a small town in Missouri.
+
+            I first fell in love with travel and the outdoors during a 2015 hiking trip to the rocky mountains in Colorado.
+            
+            The next year, I did my first major international trip -- a solo road trip across Iceland. My budget was small, so I slept in the back of a rental car for 1 month while I drove 7,000 kilometers around the country, filming all of the scenic places in Iceland.
+            
+            One of my first videos racked up a few million views and was featured on international TV by BBC Travel. Since then I've solo traveled to many developing countries, including almost every country in Asia and the Middle East.
+
+            I experienced the 7.0 Lombok earthquake in Indonesia in 2018, the bombings in Bangkok in 2019, and a fair share of scams, fights, sicknesses, auto accidents, and other crazy things along the way.
+            
+            It hasn't always been easy, but over the years I've been blessed with some amazing experiences like sleeping in jungle treehouses in Bali, trekking to Mount Everest Base Camp in the Himalayas, going on Komodo dragon safaris in Indonesia, dining on tarantulas and scorpions in Cambodia, riding a camel to the Great Pyramids of Giza in Egypt, skydiving in Oahu Hawaii, touring medieval Samurai castles in Japan, and visiting some timeless world monuments like the Taj Mahal, Tikal, Machu Picchu, Hagia Sophia, Angkor Wat, and Petra.
+            In 2018, I traveled to 24 countries in one year, which is a personal record so far! I do this on a pretty modest budget and rarely spend more than $30/day on my travels, including accommodation and food.
+
+            I haven't been everywhere, but it's on my list! I'm always looking for new adventures.
+            
+            I hope my travel blog can help and inspire you in your own journeys as well!</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="contact-section">
+<div class="container">
+  <h2>Contact Us</h2>
+  <p>Email us and keep upto date with our latest news</p>
+  <div class="row">
+  <div class="contact-forms">
+    <div class="col">
+      <i class="fa fa-map-marker"></i><span class="form-info">192 City Boston America #345</span><br>
+      <i class="fa fa-phone"></i><span class="form-info">Phone no +92 00003456789</span><br>
+      <i class="fa fa-envelope"></i><span class="form-info">JhonnyDoe1234@gmail.com</span>
+    </div>
+
+<div class="col col" >
+  <form >
+    <input type="text" name="" id="" placeholder="Your Name" required>
+    <input type="text" name="" id="" placeholder="Last Name" required>
+    <input type="Email" name="" id="" placeholder="Email" required>
+    <!-- <input type="text" name="" id="" placeholder="Message" required> -->
+    <textarea name="message"  placeholder="Message" id="" required ></textarea>
+    <button class="submit">Send Message</button>
+  </form>
+
+</div>
+
+
+</div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<footer class="text-center text-white" style="background-color: #1a2024;">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Images -->
+      <section class="">
+        <div class="row">
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/115.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/fluid/city/116.webp"
+                class="w-100"
+              />
+              <a href="#!">
+                <div
+                  class="mask"
+                  style="background-color: rgba(251, 251, 251, 0.2);"
+                ></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Images -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3">
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+</html>
